@@ -4,7 +4,7 @@
 #  Print on console the result.
 
 def ave_age(age_list)
-  puts age_list.sum / age_list.size
+  print age_list.sum / age_list.size
 end
 
-# ave_age([5, 10, 15, 20, 25])
+ave_age([5, 10, 15, 20, 25])
