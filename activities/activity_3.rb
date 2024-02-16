@@ -13,3 +13,5 @@ def age_diff(age_array)
 end
 
 age_diff(age_array)
+#Function does not sort array of ages and assumes 1st age is the first element in the array, and so on.
+#Sorting can be implemented using .sort method
