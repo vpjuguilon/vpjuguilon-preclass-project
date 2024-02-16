@@ -4,12 +4,16 @@
 #  Print on console the result.
 
 age_array = [5, 7, 11, 20, 32]
+
 def age_diff(age_array)
+  new_array = []
   age_array.each_with_index do | age, index |
     if index < (age_array.size - 1)
-      puts "The difference between elements #{index+1} and #{index} is #{age_array[index+1] - age_array[index]}."
+      #puts "The difference between elements #{index+1} and #{index} is #{age_array[index+1] - age_array[index]}."
+      new_array.append(age_array[index+1] - age_array[index])
     end
   end
+  print new_array
 end
 
 age_diff(age_array)
