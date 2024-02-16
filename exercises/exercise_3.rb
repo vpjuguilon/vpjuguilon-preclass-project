@@ -10,4 +10,4 @@ def legal_array(age_list)
 end
 
 
-legal_array([10, 16, 18, 30])
+#legal_array([10, 16, 18, 30])
